@@ -1,0 +1,16 @@
+.deny{
+    margin: 5% !important;
+}
+.hpage{
+    /* background-color: #61918c; */
+    /* max-width: 978px; */
+    background: #6a8296;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to right, #A5CC82, #00467F);  /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to right, #A5CC82, #00467F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.nvb{
+    background-color: #435564 !important;
+    color: #FFFFFF !important;
+}

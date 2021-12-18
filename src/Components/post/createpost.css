@@ -1,0 +1,21 @@
+.input-field-create {
+    font-family: 'Georgia';
+    font-size: 0.8em;
+    width: 100% !important;
+    padding: 10px !important;
+    /* padding-left: 40px !important; */
+    padding-bottom: 10px !important;
+    
+    border-top-style: hidden !important;
+    border-right-style: hidden !important;
+    border-left-style: hidden !important;
+    border-bottom-style: dotted !important;
+    /* background-color: #eee; */
+}
+.input-field-create:focus {
+    outline: none !important;
+  }
+
+.pback{
+    background-color: #076585;
+}
