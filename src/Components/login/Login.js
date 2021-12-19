@@ -4,6 +4,7 @@ import { useHistory } from "react-router-dom";
 import { signin } from "../../Actions/signin";
 import React from "react";
 import img from "../../Images/signin-image.jpg";
+import { Link } from "react-router-dom";
 
 function sleep(time){
   return new Promise((resolve)=>setTimeout(resolve,time)
@@ -130,6 +131,14 @@ function Register() {
                     />
                   </div>
                 </form>
+              </div>
+              <div className= "d-flex justify-content-end mr-2">
+              <h6>
+                New here? 
+              </h6>
+              <Link className="ms-2 h6" style={{textDecoration: "none", color:"black"}} to="/register">
+                  <i><u>Register</u></i>
+              </Link>
               </div>
             </div>
           </div>

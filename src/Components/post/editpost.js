@@ -1,6 +1,7 @@
 import profilepic from "../../Images/user-profile.png";
 import { useHistory } from "react-router-dom";
 import Navbar from "../homepage/navbar";
+import "react-notifications/lib/notifications.css";
 import {
     NotificationContainer,
     NotificationManager,

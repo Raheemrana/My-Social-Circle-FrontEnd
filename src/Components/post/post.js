@@ -54,7 +54,7 @@ const Post = (props) => {
             <Link className="dropdown-item" to={`/post/edit/${post._id}`}>
               Edit
             </Link>
-            <div className="dropdown-item" onClick={()=>deleteit(post._id)}>
+            <div style={{cursor: "pointer"}} className="dropdown-item" onClick={()=>deleteit(post._id)}>
               Delete
             </div>
           </div>

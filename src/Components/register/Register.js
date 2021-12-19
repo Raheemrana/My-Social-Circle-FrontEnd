@@ -1,7 +1,7 @@
 import "./Register.css";
-
 import { useHistory } from "react-router-dom";
 import { signup } from "../../Actions/signup";
+import { Link } from "react-router-dom";
 import React from "react";
 import img from "../../Images/signup-image.jpg"
 
@@ -66,7 +66,7 @@ function Register() {
   };
 
   return (
-    <div className="container">
+    <div className="container my-auto">
       <div className="row">
         <div className="order-2 order-md-1 col-12 col-md-6">
           <div className="card my-5">
@@ -150,6 +150,14 @@ function Register() {
                     />
                   </div>
                 </form>
+              </div>
+              <div className= "d-flex justify-content-end mr-2">
+              <h6>
+                Already a member 
+              </h6>
+              <Link className="ms-2 h6" style={{textDecoration: "none", color:"black"}} to="/login">
+                  <i><u>Login </u></i>
+              </Link>
               </div>
             </div>
           </div>

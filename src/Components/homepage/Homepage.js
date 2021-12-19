@@ -20,6 +20,8 @@ const Homepage = () => {
   const [ref, setref] = React.useState(false);
   const [posts, setposts] = React.useState([]);
 
+  const [Loaded, setLoaded] = React.useState(false);
+
   const [currentPage, setCurrentPage] = React.useState(1);
   const [postsPerPage] = React.useState(4);
 
@@ -27,12 +29,14 @@ const Homepage = () => {
     allposts(
       (error) => {
         setauthenticated(false);
+        setLoaded(true);
       },
       function posts(success) {
         console.log(success.data);
         setposts(success.data.reverse());
         console.log(success.data);
         setauthenticated(true);
+        setLoaded(true);
       }
     );
   }, [ref]);
@@ -55,9 +59,10 @@ const Homepage = () => {
   const paginate = pageNumber => setCurrentPage(pageNumber);
 
   return (
-    <div>
+    Loaded ? (
+      <div style={{backgroundColor: "#6a8296", position: "absolute", top: "0", left: "0", right: "0", bottom: "0"}}>
       {authenticated ? (
-        <div style={{backgroundColor: "#6a8296", position: "absolute", top: "0", left: "0", right: "0", bottom: "0"}}>
+        <div >
             <Navbar/>
             <NotificationContainer />
           <div className="container-fluid hpage">
@@ -78,18 +83,22 @@ const Homepage = () => {
         </div>
       ) : (
         //:history.push("/login")
-        <div className="deny">
+        <div className="deny" style={{color:"white"}}>
           <h1>
             <b> Access Denied</b>
           </h1>
           <h6>
             Please
-            <Link to="/login"> Log In </Link>
+            <Link style={{color:"white"}} to="/login"> Log In </Link>
             First :
           </h6>
         </div>
       )}
     </div>
+    ) : (<h2>
+      Loading...
+    </h2>) 
+    
   );
 };
 export default Homepage;

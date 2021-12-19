@@ -21,7 +21,7 @@ const Navbar = () => {
   const user_name = localStorage.getItem('User_name');
   return (
     <nav className="navbar navbar-expand-lg navbar-light nvb">
-      <a className="navbar-brand" href="#">
+      <Link className="navbar-brand" to="/">
         <img
           src={logo}
           width="30"
@@ -29,7 +29,7 @@ const Navbar = () => {
           className="d-inline-block rounded-circle ms-2"
           alt=""
         />
-      </a>
+      </Link>
       <Link className="navbar-brand text-light" to="/">
         My Social Circle
       </Link>
@@ -54,7 +54,7 @@ const Navbar = () => {
         </ul>
         <ul className="navbar-nav">
           <li className="nav-item active ">
-          <div className="nav-link text-light" style={{cursor: "pointer"}}onClick={()=> LoggingOut()} href = "#">  {user_name} Log Out <span className="sr-only">(current)</span> </div> 
+          <div className="nav-link text-light" style={{cursor: "pointer"}}onClick={()=> LoggingOut()} href = "#">  {user_name}-Log Out <span className="sr-only">(current)</span> </div> 
           </li>
         </ul>
       </div>
