@@ -51,18 +51,16 @@ function Createpost(props){
               type="text"
               value={blog.title}
               onChange={(e) => handleChange(e)}
-              className="input-field-create"
+              className="input-field-create font-weight-bold"
               placeholder="Title"
-              style={{fontWeight : "bold"}}
             />
             <textarea
               name="description"
-              className="border-0 my-1 input-field-create"
+              className="border-0 my-1 input-field-create ww"
               value={blog.description}
               rows="2"
               onChange={(e) => handleChange(e)}
               placeholder="Desciption"
-              style={{ width: "100%"}}
             ></textarea>
             <div className="text-center mb-1 d-flex justify-content-end">
               <input

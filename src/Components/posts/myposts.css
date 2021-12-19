@@ -14,3 +14,13 @@
     background-color: #435564 !important;
     color: #FFFFFF !important;
 }
+
+.bgd{
+    background-color: #6a8296 !important;
+     position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    color: #FFF !important;
+}

@@ -2,7 +2,7 @@ import React from "react";
 import "./myposts.css";
 import { getmyposts } from "../../Actions/getmyposts";
 import { useHistory } from "react-router-dom";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Navbar from "../homepage/navbar";
 
 import Post from "../post/post";
@@ -37,7 +37,7 @@ const Myposts = () => {
 
   return (
     Loaded ? (
-      <div style={{backgroundColor: "#6a8296", position: "absolute", top: "0", left: "0", right: "0", bottom: "0"}}>
+      <div className="bgd">
       {authenticated ? (
         <div>
             <Navbar/>
@@ -66,7 +66,7 @@ const Myposts = () => {
       )}
     </div>
     ) : (
-      <div style={{backgroundColor: "#435564", position: "absolute", top: "0", left: "0", right: "0", bottom: "0" , color: "#FFF"}}>
+      <div className="bgd">
             <h3 className="ms-5 mt-5 ">Loading...</h3>
         </div>
     )

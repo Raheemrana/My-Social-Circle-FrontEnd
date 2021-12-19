@@ -9,7 +9,7 @@ const Pagination = ({ postsPerPage, totalPosts, paginate }) => {
 
   return (
     <nav>
-      <ul className="pagination d-flex justify-content-center modal-6" style={{backgroundColor: "#6a8296",bottom: "0", marginBottom: "0px"}}>
+      <ul className="pagination d-flex justify-content-center pg" >
         {pageNumbers.map(number => (
           <li key={number} className='page-item'>
             <a onClick={() => paginate(number)} className='page-link'>

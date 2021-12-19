@@ -60,7 +60,7 @@ const Homepage = () => {
 
   return (
     Loaded ? (
-      <div style={{backgroundColor: "#6a8296", position: "absolute", top: "0", left: "0", right: "0", bottom: "0"}}>
+      <div className="bgd">
       {authenticated ? (
         <div >
             <Navbar/>
