@@ -1,8 +1,8 @@
 {
   "name": "frontend",
   "version": "0.1.0",
+  "homepage": "https://raheemrana.github.io/My-Social-Circle-FrontEnd/",
   "private": true,
-  "homepage": "https://raheemrana.github.io/My-Social-Circle-FrontEnd",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
