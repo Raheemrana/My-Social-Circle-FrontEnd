@@ -2,9 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "homepage": "https://raheemrana.github.io/My-Social-Circle-FrontEnd/",
+  "homepage": "https://raheemrana.github.io/My-Social-Circle-FrontEnd",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
@@ -20,6 +18,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
