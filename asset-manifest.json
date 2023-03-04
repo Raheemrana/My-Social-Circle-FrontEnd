@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/My-Social-Circle-FrontEnd/static/css/main.19f1be7c.css",
+    "main.js": "/My-Social-Circle-FrontEnd/static/js/main.c35208a7.js",
+    "static/js/787.d8c6ec95.chunk.js": "/My-Social-Circle-FrontEnd/static/js/787.d8c6ec95.chunk.js",
+    "static/media/signin-image.jpg": "/My-Social-Circle-FrontEnd/static/media/signin-image.6f1c72291c1ec0817ded.jpg",
+    "static/media/signup-image.jpg": "/My-Social-Circle-FrontEnd/static/media/signup-image.bd994738c4eb8deb2801.jpg",
+    "static/media/notification.svg?s3g3t9": "/My-Social-Circle-FrontEnd/static/media/notification.5d0158671dd860c714c4.svg",
+    "static/media/notification.eot": "/My-Social-Circle-FrontEnd/static/media/notification.3657084dc0419605a91c.eot",
+    "static/media/notification.woff?s3g3t9": "/My-Social-Circle-FrontEnd/static/media/notification.c392cd33d9d9de730f9d.woff",
+    "static/media/notification.ttf?s3g3t9": "/My-Social-Circle-FrontEnd/static/media/notification.c5d9251ea82e42f75381.ttf",
+    "index.html": "/My-Social-Circle-FrontEnd/index.html",
+    "main.19f1be7c.css.map": "/My-Social-Circle-FrontEnd/static/css/main.19f1be7c.css.map",
+    "main.c35208a7.js.map": "/My-Social-Circle-FrontEnd/static/js/main.c35208a7.js.map",
+    "787.d8c6ec95.chunk.js.map": "/My-Social-Circle-FrontEnd/static/js/787.d8c6ec95.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19f1be7c.css",
+    "static/js/main.c35208a7.js"
+  ]
+}
